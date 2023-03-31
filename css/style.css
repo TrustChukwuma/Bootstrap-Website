@@ -1,0 +1,103 @@
+#carousel-item1{
+    background-image: url(../img/pics1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#carousel-item2{
+    background-image: url(../img/pics3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#carousel-item3{
+    background-image: url(../img/pics7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+#carousel-caption1{
+    text-align: left;
+    color: white;
+    padding-top: 200px;
+}
+
+#carousel-caption2{
+    text-align: center;
+    color: white;
+}
+
+#content{
+    text-align: center;
+    padding: 100px;
+}
+
+.col-lg-6>img{
+    height: 478.39px;
+}
+
+.card-group{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding: 0px;
+    width: 333px;
+}
+
+.height>img{
+    height: 221.2px;
+}
+
+.row-2{
+    width: 1100px;
+    margin: auto;
+}
+
+.container-fluid{
+    padding: auto;
+}
+
+.mx{
+    text-align: center;
+}
+
+.padding{
+    padding: 100px;
+}
+
+.bg-light{
+    height: 670.98px;
+}
+
+.container>form{
+    margin-top: 40px;
+}
+
+.height2{
+    height: 60px;
+    width: 280px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.height2>h2{
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f8f9fa;
+    border: 3px solid #dc3545;
+}
+
+.btndanger2{
+    width: 570px;
+}
