@@ -5,40 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Login Page</title>
 </head>
 <body>
-    <div class="container p-3 d-flex" style="justify-content: space-between;">
-        <h2 class="text-danger fw-bold fst-italic ">AsDeyHot</h2>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                <a class="nav-link text-secondary fw-bold" aria-current="page" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-secondary fw-bold" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-secondary fw-bold" href="#">FOOD MENU</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-secondary fw-bold" href="#">REGISTER</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link active bg-danger fw-bold" href="#">LOGIN</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-secondary fw-bold" href="#">CONTACT</a>
-                </li>
+    <nav class="navbar navbar-expand-lg navbar-light p-3">
+        <div class="container d-flex" style="justify-content: space-between;" >
+          <h2 class="navbar-brand">AsEDeyHot</h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fw-bold"  href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link fw-bold">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link fw-bold">FOOD MENU</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link fw-bold">REGISTER</a>
+              </li>
+              <li class="nav-item nav-pills">
+                <a href="#" aria-current="page" class="nav-link fw-bold active bg-danger text-white">LOGIN</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link fw-bold">CONTACT</a>
+              </li>
             </ul>
-    </div>
+          </div>
+        </div>
+        </nav>
+
     <div class="container-fluid padding bg-danger">
         <div class="row gx-0">
-            <div class="col-lg-5">
+            <div class="col-lg-5 gx-0">
                 <img src="img/pics5.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-7">
-                <div class="container bg-light p-5">
+                <div class="container bg-light heighty p-5">
                     <div id="h2" class="fst-italic fw-bold text-danger bg-light height2 ">
                         <h2>AsEDeyHot</h2>
                     </div>
@@ -59,7 +68,7 @@
                             </div>
                         </div>
                       
-                        <div class="d-grid gap-2 ">
+                        <div class="d-grid gap-2 col-12">
                             <button class="btn btn-danger btndanger2" type="button">Login</button>
                         </div>
                     </form>
@@ -70,4 +79,5 @@
     
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 </html>
